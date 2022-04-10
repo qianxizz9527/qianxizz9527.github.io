@@ -1,0 +1,19 @@
+{
+  "name": "ll",
+  "version": "1.0.0",
+  "description": "my website",
+  "main": "index.js",
+  "dependencies": {
+    "vant": "^3.4.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@new:qianxizz9527/qianxizz9527.github.io.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
