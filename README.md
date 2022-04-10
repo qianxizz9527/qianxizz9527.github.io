@@ -1,4 +1,24 @@
-# qianxizz9527.github.io
-my website
+# vue3
 
-git clone git@new:qianxizz9527/qianxizz9527.github.io.git
+## Project setup
+```
+yarn install
+```
+
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
+
+### Compiles and minifies for production
+```
+yarn build
+```
+
+### Lints and fixes files
+```
+yarn lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
