@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-  <title>app</title>
+  <title>方块游戏</title>
   <style>
     * {
       margin: 0;
@@ -19,7 +19,13 @@
     }
 
     #instructions {
-      display: none;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      background-color: rgba(20, 20, 20, 0.75);
     }
 
     #results,
@@ -178,7 +184,7 @@
   <div id="results">
     <div class="content">
       <p>你错过了方块</p>
-      <p>按R重启游戏</p>
+      <p>点击屏幕重启游戏</p>
     </div>
   </div>
   <div id="score">0</div>
@@ -425,6 +431,7 @@ Check out my YouTube channel for other game tutorials: https://www.youtube.com/c
 
     function eventHandler() {
       if (autopilot) startGame();
+      else if (gameEnded) startGame(); 
       else splitBlockAndAddNextOneIfOverlaps();
     }
 
